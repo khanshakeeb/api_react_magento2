@@ -13,7 +13,6 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-
         <NavBar>
           <HeaderLink to="/">
             <FormattedMessage {...messages.home} />
@@ -21,7 +20,7 @@ class Header extends React.Component {
           <HeaderLink to="/features">
             <FormattedMessage {...messages.features} />
           </HeaderLink>
-          
+
           <HeaderLink to="/catalog">
             <FormattedMessage {...messages.catalog} />
           </HeaderLink>

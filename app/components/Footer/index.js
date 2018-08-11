@@ -6,14 +6,16 @@ import LocaleToggle from 'containers/LocaleToggle';
 import Wrapper from './Wrapper';
 import messages from './messages';
 
-function Footer() {
+function MainWrapper() {
   return (
     <Wrapper>
       <section>
-      <small><FormattedMessage {...messages.licenseMessage} /></small>
+        <small>
+          <FormattedMessage {...messages.licenseMessage} />
+        </small>
       </section>
     </Wrapper>
   );
 }
 
-export default Footer;
+export default MainWrapper;

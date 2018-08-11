@@ -15,9 +15,9 @@ function ProductTile() {
   return (
     <Wrapper>
       <InnerWrapper>
-      <Img src={Banner} />
-        <ProductName>Lawn shirt</ProductName>
-        <Price>$ 140</Price>
+        <Img src={Banner} />
+        <ProductName><b>Lawn shirt</b></ProductName>
+        <Price><label>Price:</label>$ 140</Price>
         <AddtoCartButton>Add to Cart</AddtoCartButton>
       </InnerWrapper>
     </Wrapper>
