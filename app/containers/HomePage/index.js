@@ -62,6 +62,7 @@ export class HomePage extends React.PureComponent {
           />
         </Helmet>
         <div>
+    
           <CenteredSection>
             <H2>
               <FormattedMessage {...messages.startProjectHeader} />

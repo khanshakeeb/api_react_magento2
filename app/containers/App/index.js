@@ -12,13 +12,14 @@ import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
+import CatalogPage from 'containers/CatalogPage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 const AppWrapper = styled.div`
-  max-width: calc(768px + 16px * 2);
+  max-width: calc(1180px + 16px * 2);
   margin: 0 auto;
   display: flex;
   min-height: 100%;
@@ -39,6 +40,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
+        <Route path="/catalog" component={CatalogPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
