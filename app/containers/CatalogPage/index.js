@@ -16,6 +16,7 @@ import ListItemTitle from './ListItemTitle';
 import MainWrapper from 'components/MainWrapper';
 import LeftBar from 'components/LeftBar';
 import ProductTile from 'components/ProductTile';
+import ProductTileSale from 'components/ProductTileSale';
 export default class CatalogPage extends React.Component {
   // eslint-disable-line react/prefer-stateless-function
   // Since state and props are static,
@@ -42,6 +43,7 @@ export default class CatalogPage extends React.Component {
 
         <LeftBar />
 <MainWrapper>
+        <ProductTileSale />
         <ProductTile />
         <ProductTile />
         <ProductTile />
